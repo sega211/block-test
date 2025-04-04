@@ -1,0 +1,20 @@
+{
+  "header": {
+    "title": "Mi Sitio Web",
+    "nav": {
+      "home": "Inicio",
+      "about": "Sobre Nosotros"
+    }
+  },
+  "home": {
+    "title": "¡Bienvenido!",
+    "content": "Esta es la página de inicio."
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "content": "¡Somos un gran equipo!"
+  },
+  "footer": {
+    "copyright": "© 2024 Mi Sitio Web. Todos los derechos reservados."
+  }
+}

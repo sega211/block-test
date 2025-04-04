@@ -10,9 +10,9 @@
     "title": "Welcome!",
     "content": "This is the home page."
   },
-  "about": {
-    "title": "About Us",
-    "content": "We are a great team!"
+  "single": {
+    "title": "Single Page",
+    "content": "This is a single page."
   },
   "footer": {
     "copyright": "© 2024 My Website. All rights reserved."

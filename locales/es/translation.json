@@ -10,9 +10,9 @@
     "title": "¡Bienvenido!",
     "content": "Esta es la página de inicio."
   },
-  "about": {
-    "title": "Sobre Nosotros",
-    "content": "¡Somos un gran equipo!"
+  "single": {
+    "title": "Página única",
+    "content": "Esta es una página única"
   },
   "footer": {
     "copyright": "© 2024 Mi Sitio Web. Todos los derechos reservados."

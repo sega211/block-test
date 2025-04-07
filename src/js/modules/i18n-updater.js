@@ -32,9 +32,9 @@ export function updateTranslations() {
         pageContent: document.querySelector('.page-content')
     };
 
-    if (elementsFooter.footerText) {
-        elementsFooter.footerText.textContent = i18nInstance.t('footer.copyright');
-    }
+    // if (elementsFooter.footerText) {
+    //     elementsFooter.footerText.textContent = i18nInstance.t('footer.copyright');
+    // }
 
     const page = document.body.dataset.page;
     if (page) {

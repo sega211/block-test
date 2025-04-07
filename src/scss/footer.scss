@@ -1,0 +1,102 @@
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: rgb(10, 10, 10);
+  padding:  46px 82px;
+
+  @media (max-width: 810px) {
+    flex-direction: column;
+  }
+
+  .disigned {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    height: 124px;
+    align-items: center;
+
+    h6 {
+      color: rgb(255, 255, 255);
+      font-family: EuropaNuova-Bold;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 40px;
+      letter-spacing: 0;
+      text-align: left;
+    }
+
+    a
+    {
+      span {
+        color: rgb(255, 255, 255);
+        font-family: EuropaNuova-Bold;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0;
+        text-align: left;
+        cursor: pointer;
+      }
+    }
+
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    .social__card {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      img {
+        width: 18px;
+        height: 18px;
+        filter: brightness(0) invert(1);
+      }
+
+
+      p{
+        color: rgb(255, 255, 255);
+        font-family: EuropaNuova-Bold;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0;
+        text-align: left;
+      }
+    }
+  }
+
+  .scroll-to-top-btn {
+    position: fixed; // Фиксированное позиционирование
+    bottom: 20px; // Расстояние от нижнего края экрана
+    right: 40px; // Расстояние от правого края экрана
+    z-index: 100; // Высокий z-index для отображения поверх других элементов
+    background-color: rgba(0, 0, 0, 0.6); // Полупрозрачный фон
+    border: none;
+    width: 60px;
+    height: 60px;
+
+    display: none; // Скрыта по умолчанию
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.8); // Изменение цвета фона при наведении
+      transform: translateY(-2px); // Небольшое смещение вверх при наведении
+    }
+
+    img {
+      width: 24px;
+      height: 24px;
+      filter: brightness(0) invert(1); // Белая стрелка
+    }
+  }
+}

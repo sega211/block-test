@@ -1,20 +1,99 @@
 {
   "header": {
-    "title": "Mi Sitio Web",
     "nav": {
-      "home": "Inicio",
-      "about": "Sobre Nosotros"
-    }
+      "destinations": "DESTINOS",
+      "food": "GASTRONOMÍA",
+      "wellbeing": "BIENESTAR",
+      "sport": "DEPORTE",
+      "family": "FAMILIA",
+      "lifestyle": "ESTILO DE VIDA"
+    },
+    "cta": "LLAMADO A LA ACCIÓN"
   },
   "home": {
-    "title": "¡Bienvenido!",
-    "content": "Esta es la página de inicio."
+    "title": "Inspiración para viajar por personas reales",
+    "description": "Reserva inteligente, viaja simple",
+    "section1Btn":"Comienza a planear tu viaje",
+    "section2": {
+      "cat1": "Aenean Eleifend",
+      "cat2": "Aliquam",
+      "title": "Integer Maecenas Eget Viverra",
+      "title2": "Aenean eleifend ante maecenas",
+      "name": "Joanna Wellick",
+      "date": "28 de junio de 2018",
+      "shares": "1K compartidos",
+      "description": "Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.",
+      "link": "Ver publicación"
+    },
+    "section3": {
+      "type": "Viajes",
+      "title": "Renderizado fotorrealista de Richird Norton como fotos reales",
+      "description": "Incentivar progresivamente sistemas cooperativos a través de funcionalidades técnicamente sólidas. La credibilidad de los productos de datos sin interrupciones.",
+      "button": "Empieza a planear tu viaje"
+    },
+    "section4": {
+      "title": "Destinos principales",
+      "description": "Tacha un destino más de tu lista de deseos con unas de nuestras vacaciones más populares en 2022",
+      "card1": "República Dominicana",
+      "card2": "Maecenas Tincidunt"
+    },
+    "section5": {
+      "category": "Nombre de la categoría",
+      "period": "Hace 1 mes",
+      "title": "Tacha un destino más de tu lista de deseos con unas de nuestras vacaciones más populares en 2022",
+      "description": "lit. Phasellus aliquet nibh id iaculis pharetra. Maecenas eleifend sed ex. Donec quis magna sed felis elementum blandit nec quis sem. Maecen.",
+      "link": "Ver publicación",
+      "name1": "Akame Ga Kill:",
+      "name2": "Naruto Uzumaki:",
+      "name3": "Temporada de Love juice",
+      "name4": "Temporada de Love juice",
+      "work-name1": "Final de temporada",
+      "work-name2": "Aldea oculta",
+      "work-name3": "Estreno",
+      "work-name4": "Estreno",
+      "date1": "21 de marzo de 2021",
+      "date2": "21 de marzo de 2021",
+      "date3": "21 de marzo de 2021",
+      "date4": "21 de marzo de 2021",
+      "read": "Lecturas de manga",
+      "right-card-description1": "Tacha un destino más de tu lista de deseos con unas de nuestras vacaciones más populares en 2022",
+      "right-card-description2": "Tacha un destino más de tu lista de deseos con unas de nuestras vacaciones más populares en 2022",
+      "right-card-description3": "Tacha un destino más de tu lista de deseos con unas de nuestras vacaciones más populares en 2022",
+      "right-card-date1": "21 de marzo de 2021",
+      "right-card-date2": "21 de marzo de 2021",
+      "right-card-date3": "21 de marzo de 2021"
+    }
   },
   "single": {
-    "title": "Página única",
-    "content": "Esta es una página única"
+    "section1": {
+      "place": "Inicio",
+      "type": "Crecimiento",
+      "title": "5 Reglas Eficientes para Organizar tu Lugar de Trabajo",
+      "description": "Consejos sobre relaciones que los terapeutas de parejas dan todo el tiempo",
+      "from": "por",
+      "author": "Joanna Wellick",
+      "time": "Lectura de 2 minutos",
+      "rate": "1.6K vistas",
+      "shares": "1.2K compartidos"
+    },
+    "section2": {
+      "aside-rate": "vistas",
+      "aside-shares": "compartidos",
+      "part1-1": "Cinta de agarre estructurada, copas moldeadas invisibles para un soporte firme, powermesh delantero fuerte, detalle deportivo. Calidez y comodidad cuelgan holgadamente del cuerpo, gran bolsillo delantero, detalle de botones completo, mezcla de algodón, lindo y funcional. Faldas ceñidas al cuerpo, colores primarios brillantes, paleta llamativa, vibra de animadora plisada, detalles de rayas. Zapato de corte clásico, tacón medio grueso, punta almendrada, suela de goma flexible, diseño sencillo y chic, detalle metálico hecho a mano. Pañuelo de bolsillo de seda pura contemporánea, sofisticación, estampado de coral lujoso, patrón de bolsillo. Inspirado en las tendencias, tonos de moda.",
+      "part1-2": "Destacantes hombreras de peltre con remaches, cremalleras plateadas, cintura interior con cordón, toque urbano, chaqueta de una sola fila de botones. Atención al detalle grabada, elegante con esquema de colores neutros, correa de cuero de cuarzo, se abrocha con un pasador y una hebilla. Detalle de pajarita en ropa de trabajo, correa de tobillo con hebilla, tacón stiletto, zapato atemporal, sofisticación, mocasín. Zapatos planos, diseño elegante de punta afilada, lados cortados, forro de cuero lujoso, zapato versátil imprescindible para la nueva temporada, glamuroso.",
+      "part2": "Forro de bragas, cremallera trasera oculta, estilo swing, cintura alta, doble capa, estampado floral completo.",
+      "part3-1": "Relleno de espuma en las plantillas, cuero de la mejor calidad, diseño plano clásico, diseño de punta afilada, zapato informal. Forro de bragas negro, cremallera trasera oculta, estilo swing, cintura alta, doble capa, estampado floral completo. Acabado pulido, zapato de corte elegante, trabajo, correa de tobillo elástica, tacón medio de gatito, diseño femenino.",
+      "part3-2": "Eget aenean tellus venenatis. Donec odio tempus. Felis arcu pretium metus nullam quam aenean sociis quis sem neque vici libero. Venenatis nullam fringilla pretium magnis aliquam nunc vulputate integer augue ultricies cras. Eget viverra feugiat cras ut. Sit natoque montes tempus ligula eget vitae pede rhoncus maecenas consectetuer commodo condimentum aenean.",
+      "part4-1": "Eu ridiculus fringilla aenean",
+      "part4-2": "Sociis consequat adipiscing sit curabitur donec sem luctus cras natoque vulputate dolor eget dapibus. Nec vitae eros ullamcorper laoreet dapibus mus ac ante viverra. A aenean sit augue curabitur et parturient nisi sed enim. Nulla nec quis sit quisque sem commodo ultricies neque. Lorem eget venenatis dui ante luctus ultricies tellus montes. Quis in sapien tempus.",
+      "part5-1": "Crujiente, fresco, icónico, elegante, atemporal, limpio, perfume",
+      "part5-2": "Cuello recto, silueta afilada y detalle de pinza",
+      "part5-3": "Lavado en frío, ajuste slim, denim elástico premium, selvedge, cómodo, cintura baja",
+      "part6": "Organza delicada transparente bordada, forro azul, mezcla de lino lujoso, detalle de pliegue de acetato. Detalle de cuero en el hombro, color contrastante, contorno de silueta impresionante, peplum trabajado. Botones de declaración, ajustes de cubierta, bolsillos parche, cuello solapa perenne, bolsillos de pecho con solapa, puntada superior, chaqueta recortada. Cómodo y sin esfuerzo, forro de cuero completo, detalle único y llamativo en la punta, lados bajos 'cortados', limpios y elegantes. Acabado pulido, zapato de corte elegante, trabajo, correa de tobillo elástica, tacón medio de gatito, diseño femenino."
+    }
   },
   "footer": {
-    "copyright": "© 2024 Mi Sitio Web. Todos los derechos reservados."
+    "designed": "Diseñado y Desarrollado por",
+    "name": "XP DESIGN"
   }
 }

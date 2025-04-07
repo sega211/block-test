@@ -1,28 +1,29 @@
-import i18n from './i18n';
 
-const languageSwitcher = document.querySelector('.language-switcher');
 
-languageSwitcher.addEventListener('click', (e) => {
-    if (e.target.tagName === 'BUTTON') {
-        const lang = e.target.dataset.lang;
-        i18n.changeLanguage(lang).then(() => updateContent());
+
+export function initHeader(i18n) {  // Явно принимаем i18n как параметр
+    const languageSwitcher = document.querySelector('.language-switcher');
+    const burger = document.querySelector('.header__burger');
+    const nav = document.querySelector('.header__nav');
+
+    if (languageSwitcher && i18n) {
+        languageSwitcher.addEventListener('click', async (e) => {
+            if (e.target.tagName === 'BUTTON') {
+                const lang = e.target.dataset.lang;
+                try {
+                    await i18n.changeLanguage(lang);
+                    // Не нужно вызывать updateTranslations вручную - сработает событие languageChanged
+                } catch (error) {
+                    console.error('Language switch failed:', error);
+                }
+            }
+        });
     }
-});
 
-function updateContent() {
-    document.querySelector('.header-title').textContent = i18n.t('header.title');
-    document.querySelector('.nav-home').textContent = i18n.t('header.nav.home');
-    document.querySelector('.nav-about').textContent = i18n.t('header.nav.about');
-    document.querySelector('footer p').textContent = i18n.t('footer.copyright');
-
-    // Обновляем контент страницы (если есть)
-    if (document.querySelector('.page-title')) {
-        document.querySelector('.page-title').textContent = i18n.t(`${document.body.dataset.page}.title`);
-        document.querySelector('.page-content').textContent = i18n.t(`${document.body.dataset.page}.content`);
+    if (burger) {
+        burger.addEventListener('click', () => {
+            nav.classList.toggle('active');
+            burger.classList.toggle('active');
+        });
     }
 }
-
-// Инициализация при загрузке
-document.addEventListener('DOMContentLoaded', () => {
-    updateContent();
-});

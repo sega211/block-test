@@ -1,20 +1,106 @@
 {
   "header": {
-    "title": "My Website",
+
     "nav": {
-      "home": "Home",
-      "about": "About"
-    }
+      "destinations": "DESTINATIONS",
+      "food": "FOOD",
+      "wellbeing": "WELL BEING",
+      "sport": "SPORT",
+      "family": "FAMILY",
+      "lifestyle": "LIFESTYLE"
+    },
+    "cta": "CALL TO ACTION",
+    "logoAlt": "Company Logo"
+
   },
   "home": {
-    "title": "Welcome!",
-    "content": "This is the home page."
+    "title": "Inspiration for travel by real people",
+    "description": "Book smart, travel simple",
+    "section1Btn": "Start planning your trip",
+    "section2": {
+      "cat1" : "Aenean Eleifend",
+      "cat2": "Aliquam",
+      "title" : "Integer Maecenas Eget Viverra",
+      "title2" : "Aenean eleifend ante maecenas",
+      "name" : "Joanna Wellick",
+      "date" : "June 28, 2018",
+      "shares" : "1K shares",
+      "description" : "Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.",
+      "link" : "View Post"
+      },
+    "section3" : {
+        "type" : "Travel",
+        "title" : "Richird Norton photorealistic rendering as real photos",
+        "description" : "Progressively incentivize cooperative systems through technically sound functionalities. The credibly productivate seamless data.",
+        "button" : "Start planning your trip"
+      },
+    "section4" : {
+        "title" : "Top Destinations",
+        "description" : "Tick one more destination off of your bucket list with one of our most popular vacations in 2022",
+        "card1" : "Dominican Republic",
+        "card2" : "Maecenas Tincidunt"
+      },
+    "section5" : {
+        "category" : "Category name",
+        "period" : "1 Month Ago",
+        "title" : "Tick one more destination off of your bucket list with one of our most popular vacations in 2022",
+        "description" : "lit. Phasellus aliquet nibh id iaculis pharetra. Maecenas  eleifend sed ex. Donec quis magna sed felis elementum blandit nec quis sem. Maecen.",
+        "link" : "View Post",
+        "name1" : "Akame Ga Kill:",
+        "name2" : "Naruto Uzumaki:",
+        "name3" : "Love juice Season",
+        "name4" : "Love juice Season",
+        "work-name1" : "Season finale",
+        "work-name2" : "Hidden Village",
+        "work-name3" : "Priemere",
+        "work-name4" : "Priemere",
+        "date1" : "21 March 2021",
+        "date2" : "21 March 2021",
+        "date3" : "21 March 2021",
+        "date4" : "21 March 2021",
+        "read" : "Manga reads",
+        "right-card-description1" : "Tick one more destination off of your bucket list with one of our most popular vacations in 2022",
+        "right-card-description2" : "Tick one more destination off of your bucket list with one of our most popular vacations in 2022",
+        "right-card-description3" : "Tick one more destination off of your bucket list with one of our most popular vacations in 2022",
+        "right-card-date1": "21 March 2021",
+        "right-card-date2": "21 March 2021",
+        "right-card-date3": "21 March 2021"
+      }
   },
   "single": {
-    "title": "Single Page",
-    "content": "This is a single page."
+    "section1": {
+      "place" : "Home",
+      "type" : "Growth",
+      "title" : "5 Efficient Rules How to Organize Your Working Place",
+      "description" : "Relationship tips couples therapists are giving all the time",
+      "from" : "by",
+      "author" : "Joanna Wellick",
+      "time" : "2 minute read",
+      "rate" : "1.6K views",
+      "shares" : "1.2K shares"
+
+    },
+    "section2" : {
+      "aside-rate": "views",
+      "aside-shares": "shares",
+      "part1-1" : "Structured gripped tape invisible moulded cups for sauppor firm hold strong powermesh front liner sport detail. Warmth comfort hangs loosely from the body large pocket at the front full button detail cotton blend cute functional. Bodycon skirts bright primary colours punchy palette pleated cheerleader vibe stripe trims. Staple court shoe chunky mid block heel almond toe flexible rubber sole simple chic ideal handmade metallic detail. Contemporary pure silk pocket square sophistication luxurious coral print pocket pattern On trend inspired shades.",
+      "part1-2" : "Striking pewter studded epaulettes silver zips inner drawstring waist channel urban edge single-breasted jacket. Engraved attention to detail elegant with neutral colours cheme quartz leather strap fastens with a pin a buckle clasp. Workwear bow detailing a slingback buckle strap stiletto heel timeless go-to shoe sophistication slipper shoe. Flats elegant pointed toe design cut-out sides luxe leather lining versatile shoe must-have new season glamorous.",
+      "part2" : "Knicker lining concealed back zip fasten swing style high waisted double layer full pattern floral.",
+      "part3-1" : "Foam padding in the insoles leather finest quality staple flat slip-on design pointed toe off-duty shoe. Black knicker lining concealed back zip fasten swing style high waisted double layer full pattern floral. Polished finish elegant court shoe work duty stretchy slingback strap mid kitten heel this ladylike design",
+      "part3-2" : "Eget aenean tellus venenatis. Donec odio tempus. Felis arcu pretium metus nullam quam aenean sociis quis sem neque vici libero. Venenatis nullam fringilla pretium magnis aliquam nunc vulputate integer augue ultricies cras. Eget viverra feugiat cras ut. Sit natoque montes tempus ligula eget vitae pede rhoncus maecenas consectetuer commodo condimentum aenean.",
+      "part4-1" : "Eu ridiculus fringilla aenean",
+      "part4-2" : "Sociis consequat adipiscing sit curabitur donec sem luctus cras natoque vulputate dolor eget dapibus. Nec vitae eros ullamcorper laoreet dapibus mus ac ante viverra. A aenean sit augue curabitur et parturient nisi sed enim. Nulla nec quis sit quisque sem commodo ultricies neque. Lorem eget venenatis dui ante luctus ultricies tellus montes. Quis in sapien tempus.",
+      "part5-1" : "Crisp fresh iconic elegant timeless clean perfume",
+      "part5-2" : "Neck straight sharp silhouette and dart detail",
+      "part5-3" : "Machine wash cold slim fit premium stretch selvedge denim comfortable low waist",
+      "part6" : "See-through delicate embroidered organza blue lining luxury acetate-mix stretch pleat detailing. Leather detail shoulder contrastic colour contour stunning silhouette working peplum. Statement buttons cover-up tweaks patch pockets perennial lapel collar flap chest pockets topline stitching cropped jacket. Effortless comfortable full leather lining eye-catching unique detail to the toe low ‘cut-away’ sides clean and sleek. Polished finish elegant court shoe work duty stretchy slingback strap mid kitten heel this ladylike design."
+    }
+
+
+
   },
   "footer": {
-    "copyright": "© 2024 My Website. All rights reserved."
+    "disigned": "Designed & Developed by",
+    "name" : "XP DESIGN"
   }
 }

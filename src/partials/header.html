@@ -1,10 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<header class="header" style="margin-top: 36px;">
+    <div class="header__container">
+        <!-- Блок 1: Логотип -->
+        <div class="header__logo">
+            <a href="/" class="logo-link">
+                <img src="../assets/images/logo1.png" alt="Logo Part 1" class="logo-img">
+                <img src="../assets/images/logo2.png" alt="Logo Part 2" class="logo-img">
+            </a>
+        </div>
 
-</body>
-</html>
+        <!-- Блок 2: Бургер-меню -->
+        <div class="header__burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <!-- Блок 3: Навигация -->
+        <nav class="header__nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#" class="nav-link" data-i18n="header.nav.destinations">DESTINATIONS</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" data-i18n="header.nav.food">FOOD</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" data-i18n="header.nav.wellbeing">WELL BEING</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" data-i18n="header.nav.sport">SPORT</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" data-i18n="header.nav.family">FAMILY</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" data-i18n="header.nav.lifestyle">LIFESTYLE</a></li>
+            </ul>
+        </nav>
+
+        <!-- Блок 4: CTA -->
+        <div class="header__cta">
+            <img src="../assets/icons/search.svg" alt="">
+
+            <div class="cta-button-container">
+                <button class="cta-button" data-i18n="header.cta">CALL TO ACTION</button>
+                <div class="language-switcher">
+                    <button class="lang-btn" data-lang="en">EN</button>
+                    <span class="lang-separator">/</span>
+                    <button class="lang-btn" data-lang="es">ES</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</header>

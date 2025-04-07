@@ -26,35 +26,6 @@
 ```bash
 npm install --save-dev webpack webpack-cli webpack-merge css-loader style-loader sass-loader mini-css-extract-plugin html-webpack-plugin clean-webpack-plugin terser-webpack-plugin
 ```
-## Структура проекта
-
-название-проекта/
-├── dist/                  # Скомпилированный код для production
-├── src/                   # Исходный код для разработки
-│   ├── js/
-│   │   ├── pages/
-│   │   │   ├── home.js
-│   │   │   └── single.js
-│   │   ├── header.js
-│   │   ├── footer.js
-│   │   └── i18n-updater.js
-│   ├── scss/
-│   │   ├── main.scss
-│   │   ├── home.scss
-│   │   └── single.scss
-│   ├── partials/
-│   │   ├── header.html
-│   │   └── footer.html
-│   ├── assets/
-│   │   ├── images/
-│   │   └── icons/
-│   └── index.html
-├── webpack.common.js      # Общие настройки Webpack
-├── webpack.dev.js        # Настройки Webpack для development
-├── webpack.prod.js       # Настройки Webpack для production
-├── package.json
-├── package-lock.json
-└── readme.md
 
 ### Используемые библиотеки и инструменты
 
